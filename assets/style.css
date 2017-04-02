@@ -1,0 +1,40 @@
+nav ul a:hover {
+  background-color: rgba(224, 227, 81, 0.75) !important;
+}
+.container-nav {
+  width: 90% !important;
+  margin: 0 auto;
+}
+#navigasi{
+  background: #FCFCFC;
+}
+body{
+  background: #FCFCFC;
+}
+.icon-logo{
+  height: 45px;
+  width: auto;
+  margin-top: 8px;
+}
+.icon-menu{
+  margin-top: 10px;
+}
+.side-nav li a{
+  font-weight: normal;
+}
+.collapsible-body{
+  padding: 0px 0 5px 20px !important;
+}
+
+
+
+/*Footer*/
+#full-footer{
+  background: rgb(244, 244, 244);
+}
+.footer-text{
+  color: #009688;
+}
+.footer-text:hover{
+  color: rgba(0, 150, 136, 0.64);
+}
