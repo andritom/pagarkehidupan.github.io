@@ -13,52 +13,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style media="screen">
-      .btn-daftar{
-        background: transparent;
-        height: 40px;
-        text-transform: capitalize;
-      }
-      .btn-konten{
-        width: 100%;
-        text-align: center;
-      }
-      .btn1{
-        border: 3px solid #9fd000;
-        color: #00686E;
-      }
-      .btn1:hover{
-        background: #9fd000;
-        color: white;
-      }
-      .btn2{
-        background: rgba(48, 157, 42, 0.91);
-        color: white;
-        width: 208.16px;
-      }
-      .btn2:hover{
-        background: #9fd000;
-      }
-      .btn3{
-        border: 3px solid #9fd000;
-        color: #00686E;
-      }
-      .btn3:hover{
-        background: #9fd000;
-        color: white;
-      }
-      .btn4{
-        background: rgba(48, 157, 42, 0.91);
-        color: white;
-        width: 208.16px;
-      }
-      .btn4:hover{
-        background: #9fd000;
-      }
-
-      .img-dash{
-        width: 60%;
-        height: auto;
-      }
       .panjang img{
         width: 30%;
         margin: auto;
@@ -84,27 +38,28 @@
       }
       @media only screen and (max-width:480px) {
         .landing-img{
-          margin-top: 50px;
-        }
-        .btn1{
-          visibility: hidden;
-        }
-        .btn2{
-          visibility: hidden;
-        }
-      }
-      @media only screen and (min-width:480px) {
-        .btn3{
-          visibility: hidden;
-        }
-        .btn4{
-          visibility: hidden;
+          /*margin-top: 50px;*/
         }
       }
       @media only screen and (min-width:990px) {
         .landing-img{
           margin-top: 100px;
         }
+      }
+      .cerita-terakhir{
+        color: black;
+      }
+      .cerita-terakhir:hover{
+        color: #0F5D5D;
+      }
+      .kategori-icon{
+        color: #000;
+      }
+      .kategori-icon:hover{
+        color: #0F5D5D;
+      }
+      #navigasi{
+        position: static;
       }
 
 
@@ -121,7 +76,7 @@
           </a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a class="black-text" href="#!">Motivasi</a></li>
-            <li><a class="dropdown-button black-text" data-activates="dropdown" href="#!">Diskusi</a></li>
+            <li><a class="dropdown-button black-text" data-activates="dropdown" href="#!">Diskusi <i class="fa fa-angle-down"></i></a></li>
             <li><a class="black-text" href="#!">Premium</a></li>
             <li><a class="black-text" href="#!">Login</a></li>
           </ul>
@@ -159,62 +114,151 @@
       <div class="col s12 landing-img">
         <img src="assets/icon/pagarkehidupan.png" alt="" class="responsive-img">
       </div>
-      <div class="btn-konten"><br><br><br>
-        <div class="col s12">
-          <a href="#!" class="waves-effect waves-teal btn-flat btn-med btn-daftar btn1">Ingin Hidup Berubah?</a>
-          <a href="#!" class="waves-effect waves-teal btn-flat btn-med btn-daftar btn2">Mulai Diskusi</a>
-        </div>
-        <div class="col s12">
-          <a href="#!" class="waves-effect waves-teal btn-flat btn-med btn-daftar btn3 col s6">Ingin Hidup Berubah?</a>
-          <a href="#!" class="waves-effect waves-teal btn-flat btn-med btn-daftar btn4 col s6">Mulai Diskusi</a>
-        </div>
-      </div>
     </div>
   </div>
 
-    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br>
+    <!-- Video Ngambil dari youtube -->
+    <div class="container-nav">
+      <div class="row">
+
+        <div class="col s12 m6 l4" style="text-align:center">
+          <div class="video-container">
+          <iframe width=80% height="auto" src="https://www.youtube.com/embed/0jFTYJmKXK0" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <br>
+        </div>
+        <div class="col s12 m6 l4" style="text-align:center">
+          <div class="video-container">
+          <iframe width=80% height="auto" src="https://www.youtube.com/embed/9aEZhJjYDPQ" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <br>
+        </div>
+        <div class="col s12 m6 l4" style="text-align:center">
+          <div class="video-container">
+          <iframe width=80% height="auto" src="https://www.youtube.com/embed/WlfEqXiBmew" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <br>
+        </div>
+        <div class="col s12 m6 l4" style="text-align:center">
+          <div class="video-container">
+          <iframe width=80% height="auto" src="https://www.youtube.com/embed/2WVuPAVKpok" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <br>
+        </div>
+        <div class="col s12 m6 l4" style="text-align:center">
+          <div class="video-container">
+          <iframe width=80% height="auto" src="https://www.youtube.com/embed/0ItoALOaedQ" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <br>
+        </div>
+        <div class="col s12 m6 l4" style="text-align:center">
+          <div class="video-container">
+          <iframe width=80% height="auto" src="https://www.youtube.com/embed/5JguJHZ_RRU" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <br>
+        </div>
+        <div class="col s12 m6 l4" style="text-align:center">
+          <div class="video-container">
+          <iframe width=80% height="auto" src="https://www.youtube.com/embed/1XpuUj1rXn8" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <br>
+        </div>
+        <div class="col s12 m6 l4" style="text-align:center">
+          <div class="video-container">
+          <iframe width=80% height="auto" src="https://www.youtube.com/embed/MTVYbMZUCpo" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <br>
+        </div>
+        <div class="col s12 m6 l4" style="text-align:center">
+          <div class="video-container">
+          <iframe width=80% height="auto" src="https://www.youtube.com/embed/9SMIJvSPjIs" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <br><br><br><br><br>
 
   <div class="row">
-    <div class="col s12 m4"><br>
+    <div class="col s12 m4">
+      <a href="#!" class="kategori-icon">
+      <br>
       <i class="panjang"><img src="image/motivasi.png" alt="" class="responsive-img" style="width:20%"/></i>
       <p class="center">
-        Motivasi
+        Motivasi Pendidikan
       </p>
+      </a>
     </div>
-    <div class="col s12 m4"><br>
+    <div class="col s12 m4">
+      <a href="#!" class="kategori-icon">
+      <br>
+      <i class="panjang"><img src="image/spiritual.png" alt="" class="responsive-img" style="width:42%"/></i>
+      <p class="center">
+        Motivasi Spiritual
+      </p>
+      </a>
+    </div>
+    <div class="col s12 m4">
+      <a href="#!" class="kategori-icon">
+      <br>
+      <i class="panjang"><img src="image/keuangan-dan-bisnis.png" alt="" class="responsive-img" style="width:42.5%"/></i>
+      <p class="center">
+        Motivasi Keuangan Dan Bisnis
+      </p>
+      </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12 m4">
+      <a href="#!" class="kategori-icon">
+      <br>
+      <i class="panjang"><img src="image/pola pikir.png" alt="" class="responsive-img" style="width:26%"/></i>
+      <p class="center">
+        Motivasi Karir
+      </p>
+      </a>
+    </div>
+    <div class="col s12 m4">
+      <a href="#!" class="kategori-icon">
+      <br>
+      <i class="panjang"><img src="image/tujuan.png" alt="" class="responsive-img" style="width:30.5%"/></i>
+      <p class="center">
+        Motivasi Pengembangan Diri
+      </p>
+      </a>
+    </div>
+    <div class="col s12 m4">
+      <a href="#!" class="kategori-icon">
+      <br>
+      <i class="panjang"><img src="image/love.png" alt="" class="responsive-img" style="width:35%"/></i>
+      <p class="center">
+        Motivasi Percintaan
+      </p>
+      </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12 m4 offset-m2">
+      <a href="#!" class="kategori-icon">
+      <br>
       <i class="panjang"><img src="image/video-player.png" alt="" class="responsive-img"/></i>
       <p class="center">
-        Video
+        Video Terbaru
       </p>
+      </a>
     </div>
-    <div class="col s12 m4"><br>
+    <div class="col s12 m4">
+      <a href="#!" class="kategori-icon">
+      <br>
       <i class="panjang"><img src="image/forum.png" alt="" class="responsive-img"/></i>
       <p class="center">
         Forum
       </p>
+      </a>
     </div>
   </div>
-  <div class="row">
-    <div class="col s12 m4"><br>
-      <i class="panjang"><img src="image/pola pikir.png" alt="" class="responsive-img" style="width:26%"/></i>
-      <p class="center">
-        Pola Pikir Benar
-      </p>
-    </div>
-    <div class="col s12 m4"><br>
-      <i class="panjang"><img src="image/tujuan.png" alt="" class="responsive-img" style="width:30.5%"/></i>
-      <p class="center">
-        Tujuan hidup sejati
-      </p>
-    </div>
-    <div class="col s12 m4"><br>
-      <i class="panjang"><img src="image/love.png" alt="" class="responsive-img" style="width:35%"/></i>
-      <p class="center">
-        Cinta yang Realistis
-      </p>
-    </div>
-  </div><br>
-  <hr><br>
+  <br><hr><br>
 
   <div class="row">
     <h5 style="text-align:center">Kata mereka tentang Pagar Kehidupan</h5>
@@ -293,8 +337,8 @@
 
       </div>
 
-    <div class="row col-both"><br>
-        <h5 class="center">Mengawali kehidupan dengan pikiran yang benar</h5>
+    <div class="row col-both">
+        <!-- <h5 class="center">Karena ketika dipraktekkan semuanya akan berubah!</h5>
         <div class="col s12 m4"><br>
           <i class="panjang-both"><img src="image/foto/profil-aryan.jpg" alt="" class="responsive-img circle"/></i>
           <p class="center">
@@ -315,7 +359,7 @@
             Pagar kehidupan adalah chanel motivasi terbaik bagi saya, banyak sekali yang berubah. Mulai dari karir, romansa, terutama iman saya.
             <b>~Nama Anda</b>
           </p>
-        </div>
+        </div> -->
       <div class="col s12 m4 jumlah white-text"><span class="jumlah-angka">15901</span> <br>Aktivitas Forum</div>
       <div class="col s12 m4 jumlah white-text" style="background:rgba(48, 157, 42, 0.91)"><span class="jumlah-angka">38009</span> <br>Member</div>
       <div class="col s12 m4 jumlah white-text"><span class="jumlah-angka">320</span><br>Video</div>
@@ -325,11 +369,11 @@
 
   <div class="container-nav">
     <h5 class="center">Siapapun anda dimanapun anda, hidup anda dapat menjadi lebih baik.</h5>
-    <h5 class="center">Jangan ragu untuk memperbaiki diri sendiri. Tanamkan mulai saat ini dan panen dimasa depan. Hidup anda Pasti berubah!</h5>
+    <h5 class="center">Jangan ragu untuk memperbaiki diri sendiri. Praktekkan mulai saat ini dan lihat hasilnya. Hidup anda Pasti berubah!</h5>
     <div class="container">
       <div class="row">
         <div class="col s12" style="text-align:center">
-          <a href="#!" class="waves-effect waves-teal btn-flat light-green accent-2" style="width:45%;text-transform:capitalize">Daftar gratis sekarang</a>
+          <a href="#!" class="waves-effect waves-teal btn-flat light-green accent-2" style="width:45%;text-transform:capitalize">Daftar sekarang</a>
           <a href="#!" class="waves-effect waves-teal btn-flat light-green accent-2" style="width:45%;text-transform:capitalize">Lihat cerita mereka</a>
         </div>
       </div>
@@ -342,15 +386,15 @@
     <h5>Cerita terakhir</h5>
     <div class="row">
       <div class="col s12">
-        <a href="#" style="color:black;font-size:120%;">Hidup berubah <small>5 minggu yang lalu</small></a>
+        <a class="cerita-terakhir" href="#" style="font-size:120%;">Hidup berubah <small>5 minggu yang lalu</small></a>
         <p>Hallo sahabat pagar kehidupan, saya Yulius seorang mahasiswa stmik ABC. Kali ini saya akan bercerita mengenai hidup saya yang berubah setelah mendengarkan pagar kehidupan. Dulu saya adalah seorang yang bisa dibilang masih sangan salah dalam menjalani hidup, seakan hidup itu terasa tidak adil. Namun...</p>
       </div>
       <div class="col s12">
-        <a href="#" style="color:black;font-size:120%;">Rezeki mengalir terus <small>5 minggu yang lalu</small></a>
+        <a class="cerita-terakhir" href="#" style="font-size:120%;">Rezeki mengalir terus <small>5 minggu yang lalu</small></a>
         <p>Hallo sahabat pagar kehidupan, saya Yulius seorang mahasiswa stmik ABC. Kali ini saya akan bercerita mengenai hidup saya yang berubah setelah mendengarkan pagar kehidupan. Dulu saya adalah seorang yang bisa dibilang masih sangan salah dalam menjalani hidup, seakan hidup itu terasa tidak adil. Namun...</p>
       </div>
       <div class="col s12">
-        <a href="#" style="color:black;font-size:120%;">Judul cerita lain <small>5 minggu yang lalu</small></a>
+        <a class="cerita-terakhir" href="#" style="font-size:120%;">Judul cerita lain <small>5 minggu yang lalu</small></a>
         <p>Hallo sahabat pagar kehidupan, saya Yulius seorang mahasiswa stmik ABC. Kali ini saya akan bercerita mengenai hidup saya yang berubah setelah mendengarkan pagar kehidupan. Dulu saya adalah seorang yang bisa dibilang masih sangan salah dalam menjalani hidup, seakan hidup itu terasa tidak adil. Namun...</p>
       </div>
     </div>
@@ -364,7 +408,7 @@
       <div class="row">
         <div class="col s12">
           <h4>Pagar Kehidupan</h4>
-          <p>Mengawali kehidupan dengan pikiran yang benar. Mengawali kehidupan dengan pikiran yang benar. Mengawali kehidupan dengan pikiran yang benar. </p>
+          <p>Video Motivasi untuk hidup yang lebih baik. Mengawali kehidupan dengan pikiran yang benar.</p>
         </div>
         <div class="col s12 m6 l6">
           <h5>Informasi</h5>
